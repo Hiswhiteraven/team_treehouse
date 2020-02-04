@@ -1,23 +1,19 @@
 def add(first, second)
 
-  puts first, second
-
-  puts first + second
+  first + second
 
 end
 
 def subtract(first, second)
 
-  puts first, second
-
-  puts first - second
+  first - second
 
 end
 
-add(100, 50)
+p add(100, 50)
 
-subtract(75, 25)
+p subtract(75, 25)
 
-add(3, 4)
+p add(3, 4)
 
-subtract 10, 5
+p subtract 10, 5
