@@ -1,8 +1,8 @@
 
-def wait
+def wait(seconds)
 
   puts "Waiting..."
-  sleep 3
+  sleep seconds
   puts "Done"
 
 end
@@ -17,4 +17,5 @@ end
 
 count_to_three
 
-wait
+wait 1
+wait 3
